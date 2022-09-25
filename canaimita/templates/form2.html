@@ -1,0 +1,13 @@
+{% extends "chamabot.html" %}
+
+
+{% block pregunta %} <h2> Hola {{nombreUsuario}}, me encantaría saber más de ti… Por favor ayúdame a conocerte mejor, respondiendo las siguientes preguntas:</h2> {% endblock %}
+
+{% block content %} 
+<form action="" method="post">
+    {% csrf_token %}
+    
+    {{form}}
+    <input type="submit">
+</form>
+{% endblock %}
