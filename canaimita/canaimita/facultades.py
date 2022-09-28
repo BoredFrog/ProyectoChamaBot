@@ -1,5 +1,5 @@
 from sklearn import tree
-from . import views
+import views
 clf = tree.DecisionTreeClassifier()
 x = [
   [2,1,2,4,4,4], [4,1,2,4,4,4], [2,1,2,1,4,4], [4,1,2,1,4,4], 
@@ -62,7 +62,7 @@ dato1 =  [3,1,1,3,3,3]
 
 
 prediction = clf.predict([dato1])
-print(views.respuestasPreguntas)
+print("stich")
 #print(respuestasPreguntas)
 if prediction == 'Ciencias jurídicas y políticas':
   print('Tu personalidad se inclina y manifiesta fuerte interes por las Ciencias jurídicas y políticas, podrias ser un gran abogado!! 👩‍⚖️')
