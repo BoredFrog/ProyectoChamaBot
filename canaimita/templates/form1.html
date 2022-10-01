@@ -1,8 +1,12 @@
+
 {% extends "chamabot.html" %}
+{% load static%}
 
 {% block title %} Hola Soy Chamabot {% endblock %}
 
-{% block pregunta %} <h2>Hola Soy Chamabot.</h2> {% endblock %}
+{% block pregunta %} <h2>Hola Soy Chamabot.</h2>  <img src="{% static 'canaimita/chamabot.jpg' %}" 
+width="426"
+height="347">{% endblock %}
 
 {% block content %} <p>Dime tu Nombre:</p> 
 <form action="" method="post">
