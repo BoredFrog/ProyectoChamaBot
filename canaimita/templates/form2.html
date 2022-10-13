@@ -2,14 +2,16 @@
 {% load static%}
 
 
-{% block pregunta %} <h2> Hola {{nombreUsuario}}, me encantaría saber más de ti… Por favor ayúdame a conocerte mejor, respondiendo las siguientes preguntas:</h2> {% endblock %}
+{% block pregunta %} <h2> Hola {{nombreUsuario}}, me encantaría saber más de ti… Por favor ayúdame a conocerte mejor, respondiendo las siguientes preguntas:</h2>
+<img src="{% static 'canaimita/chamabot.jpg' %}" 
+width="426"
+height="347">
+ {% endblock %}
 
 {% block content %} 
 <form action="" method="post">
     {% csrf_token %}
-    <img src="{% static 'canaimita/chamabot.jpg' %}" 
-    width="426"
-    height="347">
+   
     {{form|linebreaks}}
     <input type="submit">
 </form>

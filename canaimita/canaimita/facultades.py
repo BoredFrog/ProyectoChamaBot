@@ -63,21 +63,21 @@ def RealizarPrediccion(dato):
   prediction = clf.predict([dato])
 
   if prediction == 'Ciencias jurídicas y políticas':
-    print('Tu personalidad se inclina y manifiesta fuerte interes por las Ciencias jurídicas y políticas, podrias ser un gran abogado!! 👩‍⚖️')
-    return('Tu personalidad se inclina y manifiesta fuerte interes por las Ciencias jurídicas y políticas, podrias ser un gran abogado!! 👩‍⚖️')
+    print('Tu personalidad se inclina y manifiesta fuerte interes por las Ciencias jurídicas y políticas, podrias ser un gran abogado!!')
+    return('Tu personalidad se inclina y manifiesta fuerte interes por las Ciencias jurídicas y políticas, podrias ser un gran abogado!! ')
 
   if prediction == 'Ciencias de la información (Diseño gráfico)':
-   print('Tu personalidad se inclina y manifiesta fuerte interes por las Ciencias de la información, podrias ser un gran disenador grafico 👩‍🎨')
-   return('Tu personalidad se inclina y manifiesta fuerte interes por las Ciencias de la información, podrias ser un gran disenador grafico 👩‍🎨')
+   print('Tu personalidad se inclina y manifiesta fuerte interes por las Ciencias de la información, podrias ser un gran disenador grafico ')
+   return('Tu personalidad se inclina y manifiesta fuerte interes por las Ciencias de la información, podrias ser un gran disenador grafico ')
 
   if prediction == 'Ingeniería':
-   print('Tu personalidad es ingeniosa y manifiestas fuerte inter por solventar problemas a traves de las maravillosas matematicas y la tecnologia, podrias ser un gran Ingeniero 👷‍♂️ o informatico 👨‍💻')
-   return('Tu personalidad es ingeniosa y manifiestas fuerte inter por solventar problemas a traves de las maravillosas matematicas y la tecnologia, podrias ser un gran Ingeniero 👷‍♂️ o informatico 👨‍💻')
+   print('Tu personalidad es ingeniosa y manifiestas fuerte inter por solventar problemas a traves de las maravillosas matematicas y la tecnologia, podrias ser un gran Ingeniero  o informatico ')
+   return('Tu personalidad es ingeniosa y manifiestas fuerte inter por solventar problemas a traves de las maravillosas matematicas y la tecnologia, podrias ser un gran Ingeniero  o informatico ')
 
   if prediction == 'Ciencias administrativas':
-   print('Tu personalidad se inclina y manifiesta fuerte interes por las Ciencias administrativas, podrias ser un gran Contador, Administrador o Relacionista Industrial 📈📊')
-   return('Tu personalidad se inclina y manifiesta fuerte interes por las Ciencias administrativas, podrias ser un gran Contador, Administrador o Relacionista Industrial 📈📊')
+   print('Tu personalidad se inclina y manifiesta fuerte interes por las Ciencias administrativas, podrias ser un gran Contador, Administrador o Relacionista Industrial ')
+   return('Tu personalidad se inclina y manifiesta fuerte interes por las Ciencias administrativas, podrias ser un gran Contador, Administrador o Relacionista Industrial ')
 
   if prediction == 'Humanidades y educación (Comunicación social)':
-   print('Tu personalidad se inclina y manifiesta fuerte interes por las Humanidades y educación, podrias ser un gran Comunicador social 🎤')
-   return('Tu personalidad se inclina y manifiesta fuerte interes por las Humanidades y educación, podrias ser un gran Comunicador social 🎤')
+   print('Tu personalidad se inclina y manifiesta fuerte interes por las Humanidades y educación, podrias ser un gran Comunicador social')
+   return('Tu personalidad se inclina y manifiesta fuerte interes por las Humanidades y educación, podrias ser un gran Comunicador social ')

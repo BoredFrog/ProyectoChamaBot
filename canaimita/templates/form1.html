@@ -8,11 +8,12 @@
 width="426"
 height="347">{% endblock %}
 
-{% block content %} <p>Dime tu Nombre:</p> 
+{% block content %} <p>Dime tu Nombre: </p> 
 <form action="" method="post">
     {% csrf_token %}
     
     {{form}}
+    
 </form>
-
+<p style="color:red" ><strong>{{errorcito}}</strong></p>
 {% endblock %}
