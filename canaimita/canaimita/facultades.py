@@ -71,8 +71,8 @@ def RealizarPrediccion(dato):
    return('Tu personalidad se inclina y manifiesta fuerte interes por las Ciencias de la información, podrias ser un gran disenador grafico ')
 
   if prediction == 'Ingeniería':
-   print('Tu personalidad es ingeniosa y manifiestas fuerte inter por solventar problemas a traves de las maravillosas matematicas y la tecnologia, podrias ser un gran Ingeniero  o informatico ')
-   return('Tu personalidad es ingeniosa y manifiestas fuerte inter por solventar problemas a traves de las maravillosas matematicas y la tecnologia, podrias ser un gran Ingeniero  o informatico ')
+   print('Tu personalidad es ingeniosa y manifiestas fuerte interés por solventar problemas a traves de las maravillosas matematicas y la tecnologia, podrias ser un gran Ingeniero  o informatico ')
+   return('Tu personalidad es ingeniosa y manifiestas fuerte interés por solventar problemas a traves de las maravillosas matematicas y la tecnologia, podrias ser un gran Ingeniero  o informatico ')
 
   if prediction == 'Ciencias administrativas':
    print('Tu personalidad se inclina y manifiesta fuerte interes por las Ciencias administrativas, podrias ser un gran Contador, Administrador o Relacionista Industrial ')

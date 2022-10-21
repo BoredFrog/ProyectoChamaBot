@@ -9,8 +9,9 @@
     <title>Chamabot te da la Bienvenida! Presiona el boton para empezar a hablar con Chamabot</title>
 </head>
 <body>
-    <form>
-        
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="submit" value="holis">
     </form>
 </body>
 </html>

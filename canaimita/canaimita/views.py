@@ -16,6 +16,11 @@ prediccion = "fracaso"
 def pagina1(request):
 	return HttpResponse('Funciono')
 
+def mainpage(request):
+	if request.method == 'POST': 
+		return redirect('/form/01/')
+	return render(request, 'main.html')
+
 def form1(request): 
 	errorcito = ""
 	if request.method == 'POST':

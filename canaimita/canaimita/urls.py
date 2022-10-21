@@ -19,7 +19,7 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.form1),
+    path('',views.mainpage),
     path('form/01/',views.form1),
     path('form/02/',views.form2), 
     path('prediccion/' ,views.prediccion)
