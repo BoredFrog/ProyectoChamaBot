@@ -1,17 +1,22 @@
 {% load static %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="spacer layer1">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamabot te da la Bienvenida! Presiona el boton para empezar a hablar con Chamabot</title>
+    <link rel="stylesheet" href="{% static 'canaimita/style.css' %}">
+    <title></title>
+    Chamabot te da la Bienvenida! Presiona el boton para empezar a hablar con Chamabot
 </head>
 <body>
+    <img src="{% static 'canaimita/chamabot.jpg' %}" 
+width="426"
+height="347">
     <form action="" method="post">
         {% csrf_token %}
-        <input type="submit" value="holis">
+        <input type="submit" value="Empezar!">
     </form>
 </body>
 </html>
